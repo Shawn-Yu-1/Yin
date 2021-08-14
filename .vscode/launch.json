@@ -5,7 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "gcc.exe - 生成和调试活动文件",
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "tesi.src.App",
+            "projectName": "mycode_624e8d52"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": "${file}",
+        },
+        {
+            "name": "gcc-debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
